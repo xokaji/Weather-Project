@@ -1,0 +1,92 @@
+.container{
+    margin: auto;
+    border-color: #000;
+    width:600px;
+    height: 650px;
+    background-image:linear-gradient(180deg, #293808 0%, #c2d7ea 100%);
+    margin-top: 25px;
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+input[type="text"]{
+    width:200px;
+    height: 30px;
+    border-radius: 20px;
+    border-color:blue;
+    margin-top: 20px;
+    
+    
+}
+
+input[type="name"]::placeholder{
+    font-size: large;
+    padding:10px;
+}
+
+input[type="submit"]{
+    width:60px;
+    height: 55px;
+    margin-top: 20px;
+    font-size: large;
+    border-radius: 50%;
+    border-color:blue;
+    cursor: pointer;
+}
+
+.search-bar{
+    font-size: large;
+    padding:10px;
+    margin: 5px;
+   
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.weather-image{
+    display: flex;
+    justify-content: center;
+}
+
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    font-size:100px;
+}
+
+.weather-location{
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+    color:white;
+    margin-top: 20px;
+}
+
+.data-container{
+    display: flex;
+    justify-content:center;
+    color: #fff;
+    margin-top: 50px;
+    gap:250px;
+
+}
+
+.element{
+    display: flex;
+    align-items: flex-start;
+    gap:25px;
+}
+
+.data{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
